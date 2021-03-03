@@ -65,7 +65,7 @@ predict.lm(l,d,interval = "confidence", conf.level = 0.97);
 m = matrix(c(28, 42, 15, 23, 35, 17),nrow = 2, byrow = T);
 chisq.test(m);
 
-#zad5
+#task 5
 data = read.csv("E:/Data1.txt", header = FALSE);
 x = data$V1;
 shapiro.test(x);
